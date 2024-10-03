@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjual Beras</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-success text-white text-center py-5">
+        <h1>Selamat Datang di Penjual Beras</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Produk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Tentang Kami</h2>
+            <p class="text-center">Kami menyediakan beras berkualitas tinggi langsung dari petani lokal.</p>
+        </div>
+    </section>
+
+    <section id="products" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Produk Kami</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="beras-organik.jpg" class="card-img-top" alt="Beras Organik">
+                        <div class="card-body">
+                            <h5 class="card-title">Beras Organik</h5>
+                            <p class="card-text">Harga: Rp 50.000/kg</p>
+                            <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="beras-peda.jpg" class="card-img-top" alt="Beras Peda">
+                        <div class="card-body">
+                            <h5 class="card-title">Beras Peda</h5>
+                            <p class="card-text">Harga: Rp 45.000/kg</p>
+                            <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="beras-beras.jpg" class="card-img-top" alt="Beras Peda">
+                        <div class="card-body">
+                            <h5 class="card-title">Beras Premium</h5>
+                            <p class="card-text">Harga: Rp 60.000/kg</p>
+                            <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-success text-white text-center py-5">
+        <h2>Kontak Kami</h2>
+        <form class="form-inline justify-content-center">
+            <div class="form-group">
+                <label for="name" class="sr-only">Nama:</label>
+                <input type="text" class="form-control mx-2" id="name" placeholder="Nama" required>
+            </div>
+            <div class="form-group">
+                <label for="email" class="sr-only">Email:</label>
+                <input type="email" class="form-control mx-2" id="email" placeholder="Email" required>
+            </div>
+            <button type="submit" class="btn btn-light">Kirim</button>
+        </form>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net
